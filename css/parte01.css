@@ -1,0 +1,67 @@
+#parte01{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#parte01 article{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem;
+}
+#parte01 article h2{
+    font-size: 4rem;
+}
+#parte01 article p{
+    font-size: 1.5rem;
+    margin: 3rem 0;
+}
+#parte01 img{
+    width: 40%;
+}
+/*IPAD*/
+
+@media only screen and (max-width: 1024px){
+    #parte01{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    #parte01 article{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding: 2rem;
+    }
+    #parte01 article h2{
+        font-size: 3rem;
+    }
+    #parte01 article p{
+        font-size: 1.25rem;
+        margin: 3rem 0;
+    }
+    #parte01 img{
+        width: 80%;
+        height: 40rem;
+        object-fit: cover;
+    }
+    
+    
+}
+
+/*IPHONE*/
+
+@media only screen and (max-width: 600px){
+    #parte01 img{
+        width: 100%;
+        height: 30rem;
+        object-fit: cover;
+    }
+}
